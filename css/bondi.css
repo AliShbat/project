@@ -1,0 +1,242 @@
+:root {
+  --web-dark: #1a62a1;
+  --web-red: #f32d00;
+  --web-gray: #f1efef;
+  --web-blue: #08526d;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+.Elitecorp span:first-of-type {
+  color: var(--web-blue);
+}
+.Elitecorp span:last-of-type {
+  color: var(--web-red);
+}
+.information {
+  background-color: var(--web-dark);
+}
+.information a {
+  border: 1px solid rgb(231, 115, 115);
+}
+.view {
+  background-color: var(--web-red);
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 0;
+}
+/* Start nav  */
+.navbar-nav li {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+  color: var(--web-red);
+}
+/* End nav */
+/*Start Slider*/
+.Slider {
+  background-color: rgb(135, 148, 160);
+}
+.Slider .carousel-inner .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.Slider .carousel-inner .carousel-one {
+  background-image: url("../Images/100.jpg");
+}
+.Slider .carousel-inner .carousel-two {
+  background-image: url("../Images/101.jpg");
+}
+.Slider .carousel-inner .carousel-three {
+  background-image: url("../Images/102.jpg");
+}
+
+/* End Slider */
+/* Start Featuers */
+.Featuers svg {
+  background-color: var(--web-red);
+  color: #fff;
+
+  padding: 10px;
+}
+.Featuers h4 {
+  color: var(--web-blue);
+}
+/* End Featuers */
+/* Start Company */
+.Company {
+  background-color: var(--web-gray);
+}
+.Company span {
+  letter-spacing: 1px;
+}
+/* End Company */
+/* Start Featured-work */
+.Featured-work ul li {
+  color: var(--web-blue);
+  display: inline-block;
+  border: 1px solid var(--web-dark);
+  padding: 0.5rem 1rem;
+  margin: 5px 3px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.Featured-work ul li.active,
+.Featured-work ul li:hover {
+  background-color: var(--web-red);
+  color: #fff;
+  border: 1px solid var(--web-red);
+}
+.Featured-work .shuffl img {
+  height: 299px;
+  width: 400px;
+}
+/* End Featured-work */
+/* Start Letst-Post */
+.Letst-Post .card h5 {
+  color: var(--web-blue);
+}
+.Letst-Post .card a {
+  text-decoration: none;
+  color: var(--web-red);
+}
+/* End Featured-work */
+/* start Testemonials */
+.Testemonials {
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../Images/103.jpg");
+  position: relative;
+  height: 800px;
+}
+/* .Testemonials .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+} */
+.Testemonials .carousel-inner {
+  top: 50%;
+  transform: translateY(-30%);
+}
+/* End Testemonials */
+/* Start Pricing-table */
+.Pricing-table {
+  background-color: var(--web-gray);
+}
+.Pricing-table .first-table {
+  background-color: #fff;
+  padding: 20px 0 20px;
+}
+.Pricing-table .first-table h4 {
+  color: var(--web-blue);
+}
+
+.Pricing-table .first-table p {
+  background-color: var(--web-gray);
+  padding: 0.5rem;
+  color: var(--web-dark);
+  font-size: 30px;
+  font-weight: bold;
+}
+.Pricing-table .first-table p span {
+  font-size: 15px;
+}
+.Pricing-table .first-table ul li {
+  padding: 10px 0 10px;
+}
+.Pricing-table .first-table .corporate {
+  background-color: var(--web-red);
+  color: #fff;
+}
+.Pricing-table .first-table .corp {
+  background-color: var(--web-dark);
+}
+.Pricing-table .group .first-table:hover {
+  position: relative;
+  top: -20px;
+}
+
+/* End Pricing-table */
+/* Start Choose Us */
+.write-left {
+  background-color: var(--web-blue);
+  padding: 20px 10px 24px 30px;
+}
+/* End Choose us */
+/* Start Statistics */
+.Statistics {
+  padding-top: 8rem;
+  color: var(--web-blue);
+}
+.Statistics p {
+  color: var(--web-red);
+}
+/* End  Statistics */
+/* Start  Contact-us */
+.Contact-us {
+  background-color: var(--web-red);
+}
+.Contact-us a {
+  border: 1px solid white;
+  margin-top: 0;
+}
+/* End  Contact-us */
+/* start footer */
+.Footer {
+  padding-top: 6rem;
+}
+.Footer .Elitecorp a::before{
+ content: "\f105";
+ font-family: 'fontAwesome';
+ margin-right: 4px;
+}
+.Footer .col-lg-4 h1{
+  color:var(--web-blue)
+}
+.Footer .col {
+  color: var(--web-blue);
+  font-weight: 500;
+}
+
+.Footer .col-lg-3 h1 {
+  color: var(--web-blue);
+}
+
+/* end footer */
+/* Start copy-right */
+.copy-right ul li{
+  display: inline-block;
+
+}
+
+/* end copy-right */
